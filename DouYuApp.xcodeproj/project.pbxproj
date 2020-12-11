@@ -17,6 +17,10 @@
 		9AD309132582225F00F8BFC8 /* DouYuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD309122582225F00F8BFC8 /* DouYuAppTests.swift */; };
 		9AD3091E2582225F00F8BFC8 /* DouYuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3091D2582225F00F8BFC8 /* DouYuAppUITests.swift */; };
 		9AD30955258315E200F8BFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD30954258315E200F8BFC8 /* Assets.xcassets */; };
+		9AD3097525833B3900F8BFC8 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3097425833B3900F8BFC8 /* HomePageViewController.swift */; };
+		9AD3097D25833B5600F8BFC8 /* FollowPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3097C25833B5600F8BFC8 /* FollowPageViewController.swift */; };
+		9AD3098225833B7000F8BFC8 /* LivePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3098125833B7000F8BFC8 /* LivePageViewController.swift */; };
+		9AD3098725833B8700F8BFC8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3098625833B8700F8BFC8 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		9AD3091D2582225F00F8BFC8 /* DouYuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuAppUITests.swift; sourceTree = "<group>"; };
 		9AD3091F2582225F00F8BFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD30954258315E200F8BFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/DouYuZB-master/DYZB/DYZB/Assets.xcassets"; sourceTree = "<group>"; };
+		9AD3097425833B3900F8BFC8 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		9AD3097C25833B5600F8BFC8 /* FollowPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowPageViewController.swift; sourceTree = "<group>"; };
+		9AD3098125833B7000F8BFC8 /* LivePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePageViewController.swift; sourceTree = "<group>"; };
+		9AD3098625833B8700F8BFC8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B9D0676BA998825381454386 /* Pods-DouYuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuApp.release.xcconfig"; path = "Target Support Files/Pods-DouYuApp/Pods-DouYuApp.release.xcconfig"; sourceTree = "<group>"; };
 		D7A9402371EF19BD2DBA8B89 /* Pods-DouYuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuApp.debug.xcconfig"; path = "Target Support Files/Pods-DouYuApp/Pods-DouYuApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,6 +179,7 @@
 		9AD3096F258339D600F8BFC8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				9AD3097425833B3900F8BFC8 /* HomePageViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -178,6 +187,7 @@
 		9AD30970258339DE00F8BFC8 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				9AD3098125833B7000F8BFC8 /* LivePageViewController.swift */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -185,6 +195,7 @@
 		9AD30971258339E300F8BFC8 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				9AD3098625833B8700F8BFC8 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -192,6 +203,7 @@
 		9AD30972258339EC00F8BFC8 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				9AD3097C25833B5600F8BFC8 /* FollowPageViewController.swift */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -378,8 +390,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AD309032582225C00F8BFC8 /* DouYuApp.xcdatamodeld in Sources */,
+				9AD3098225833B7000F8BFC8 /* LivePageViewController.swift in Sources */,
 				9AD308FD2582225C00F8BFC8 /* ViewController.swift in Sources */,
+				9AD3097D25833B5600F8BFC8 /* FollowPageViewController.swift in Sources */,
 				9AD308F92582225C00F8BFC8 /* AppDelegate.swift in Sources */,
+				9AD3097525833B3900F8BFC8 /* HomePageViewController.swift in Sources */,
+				9AD3098725833B8700F8BFC8 /* ProfileViewController.swift in Sources */,
 				9AD308FB2582225C00F8BFC8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
