@@ -125,9 +125,14 @@
 		9AD308F72582225C00F8BFC8 /* DouYuApp */ = {
 			isa = PBXGroup;
 			children = (
+				9AD3096E258339C300F8BFC8 /* Main */,
+				9AD3096F258339D600F8BFC8 /* Home */,
+				9AD30972258339EC00F8BFC8 /* Follow */,
+				9AD30970258339DE00F8BFC8 /* Live */,
+				9AD30971258339E300F8BFC8 /* Profile */,
+				9AD30973258339FB00F8BFC8 /* Tools */,
 				9AD308F82582225C00F8BFC8 /* AppDelegate.swift */,
 				9AD308FA2582225C00F8BFC8 /* SceneDelegate.swift */,
-				9AD308FC2582225C00F8BFC8 /* ViewController.swift */,
 				9AD308FE2582225C00F8BFC8 /* Main.storyboard */,
 				9AD30954258315E200F8BFC8 /* Assets.xcassets */,
 				9AD309062582225F00F8BFC8 /* LaunchScreen.storyboard */,
@@ -153,6 +158,49 @@
 				9AD3091F2582225F00F8BFC8 /* Info.plist */,
 			);
 			path = DouYuAppUITests;
+			sourceTree = "<group>";
+		};
+		9AD3096E258339C300F8BFC8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9AD308FC2582225C00F8BFC8 /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9AD3096F258339D600F8BFC8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9AD30970258339DE00F8BFC8 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		9AD30971258339E300F8BFC8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9AD30972258339EC00F8BFC8 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		9AD30973258339FB00F8BFC8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
