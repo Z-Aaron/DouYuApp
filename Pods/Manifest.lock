@@ -17,8 +17,8 @@ DEPENDENCIES:
   - Alamofire
   - CocoaAsyncSocket
   - FMDB
-  - RxCocoa (~> 5.0)
-  - RxSwift (~> 5.0)
+  - RxCocoa
+  - RxSwift
   - SnapKit
   - YYModel
 
@@ -43,6 +43,6 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: c16a64badd36769cc12b35f003410039ea0ffa88
+PODFILE CHECKSUM: 32ec4ef2bb4fb734de850216342ab555aff378bd
 
 COCOAPODS: 1.9.0.beta.2

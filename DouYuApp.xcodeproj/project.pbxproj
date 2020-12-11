@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,11 +13,10 @@
 		9AD308FD2582225C00F8BFC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD308FC2582225C00F8BFC8 /* ViewController.swift */; };
 		9AD309002582225C00F8BFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD308FE2582225C00F8BFC8 /* Main.storyboard */; };
 		9AD309032582225C00F8BFC8 /* DouYuApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AD309012582225C00F8BFC8 /* DouYuApp.xcdatamodeld */; };
-		9AD309052582225F00F8BFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD309042582225F00F8BFC8 /* Assets.xcassets */; };
 		9AD309082582225F00F8BFC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD309062582225F00F8BFC8 /* LaunchScreen.storyboard */; };
 		9AD309132582225F00F8BFC8 /* DouYuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD309122582225F00F8BFC8 /* DouYuAppTests.swift */; };
 		9AD3091E2582225F00F8BFC8 /* DouYuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3091D2582225F00F8BFC8 /* DouYuAppUITests.swift */; };
-		9AD3092F2582FB9800F8BFC8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9AD3092E2582FB9800F8BFC8 /* Podfile */; };
+		9AD30955258315E200F8BFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD30954258315E200F8BFC8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		9AD308FC2582225C00F8BFC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AD308FF2582225C00F8BFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AD309022582225C00F8BFC8 /* DouYuApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DouYuApp.xcdatamodel; sourceTree = "<group>"; };
-		9AD309042582225F00F8BFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AD309072582225F00F8BFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AD309092582225F00F8BFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD3090E2582225F00F8BFC8 /* DouYuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +52,7 @@
 		9AD309192582225F00F8BFC8 /* DouYuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD3091D2582225F00F8BFC8 /* DouYuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuAppUITests.swift; sourceTree = "<group>"; };
 		9AD3091F2582225F00F8BFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AD3092E2582FB9800F8BFC8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		9AD30954258315E200F8BFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/DouYuZB-master/DYZB/DYZB/Assets.xcassets"; sourceTree = "<group>"; };
 		B9D0676BA998825381454386 /* Pods-DouYuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuApp.release.xcconfig"; path = "Target Support Files/Pods-DouYuApp/Pods-DouYuApp.release.xcconfig"; sourceTree = "<group>"; };
 		D7A9402371EF19BD2DBA8B89 /* Pods-DouYuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuApp.debug.xcconfig"; path = "Target Support Files/Pods-DouYuApp/Pods-DouYuApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,7 +89,6 @@
 				D7A9402371EF19BD2DBA8B89 /* Pods-DouYuApp.debug.xcconfig */,
 				B9D0676BA998825381454386 /* Pods-DouYuApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -106,7 +103,6 @@
 		9AD308EC2582225C00F8BFC8 = {
 			isa = PBXGroup;
 			children = (
-				9AD3092E2582FB9800F8BFC8 /* Podfile */,
 				9AD308F72582225C00F8BFC8 /* DouYuApp */,
 				9AD309112582225F00F8BFC8 /* DouYuAppTests */,
 				9AD3091C2582225F00F8BFC8 /* DouYuAppUITests */,
@@ -133,7 +129,7 @@
 				9AD308FA2582225C00F8BFC8 /* SceneDelegate.swift */,
 				9AD308FC2582225C00F8BFC8 /* ViewController.swift */,
 				9AD308FE2582225C00F8BFC8 /* Main.storyboard */,
-				9AD309042582225F00F8BFC8 /* Assets.xcassets */,
+				9AD30954258315E200F8BFC8 /* Assets.xcassets */,
 				9AD309062582225F00F8BFC8 /* LaunchScreen.storyboard */,
 				9AD309092582225F00F8BFC8 /* Info.plist */,
 				9AD309012582225C00F8BFC8 /* DouYuApp.xcdatamodeld */,
@@ -265,8 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AD309082582225F00F8BFC8 /* LaunchScreen.storyboard in Resources */,
-				9AD309052582225F00F8BFC8 /* Assets.xcassets in Resources */,
-				9AD3092F2582FB9800F8BFC8 /* Podfile in Resources */,
+				9AD30955258315E200F8BFC8 /* Assets.xcassets in Resources */,
 				9AD309002582225C00F8BFC8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = douyu.DouYuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -544,7 +539,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = douyu.DouYuApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,8 +1,8 @@
 target 'DouYuApp' do
-    platform :osx, 10.14
+    platform :ios, 14.2
     pod 'Alamofire'
-    pod 'RxSwift', '~> 5.0'
-    pod 'RxCocoa', '~> 5.0'
+    pod 'RxSwift'
+    pod 'RxCocoa'
     pod 'FMDB'
     pod 'CocoaAsyncSocket'
     pod 'YYModel'
