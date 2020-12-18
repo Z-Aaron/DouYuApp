@@ -7,6 +7,8 @@ target 'DouYuApp' do
     pod 'CocoaAsyncSocket'
     pod 'YYModel'
     pod 'SnapKit'
+    pod 'Moya'
+    pod 'ObjectMapper'
     use_frameworks!
 end
 

@@ -30,6 +30,7 @@
 		9AD3097D25833B5600F8BFC8 /* FollowPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3097C25833B5600F8BFC8 /* FollowPageViewController.swift */; };
 		9AD3098225833B7000F8BFC8 /* LivePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3098125833B7000F8BFC8 /* LivePageViewController.swift */; };
 		9AD3098725833B8700F8BFC8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD3098625833B8700F8BFC8 /* ProfileViewController.swift */; };
+		9AD9A5FF258CA8D800989628 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9A5FE258CA8D800989628 /* RecommendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		9AD3097C25833B5600F8BFC8 /* FollowPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowPageViewController.swift; sourceTree = "<group>"; };
 		9AD3098125833B7000F8BFC8 /* LivePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePageViewController.swift; sourceTree = "<group>"; };
 		9AD3098625833B8700F8BFC8 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9AD9A5FE258CA8D800989628 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		B9D0676BA998825381454386 /* Pods-DouYuApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuApp.release.xcconfig"; path = "Target Support Files/Pods-DouYuApp/Pods-DouYuApp.release.xcconfig"; sourceTree = "<group>"; };
 		D7A9402371EF19BD2DBA8B89 /* Pods-DouYuApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuApp.debug.xcconfig"; path = "Target Support Files/Pods-DouYuApp/Pods-DouYuApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,6 +172,7 @@
 			children = (
 				9AB438E225836A4F0085F06A /* Home.storyboard */,
 				9AD3097425833B3900F8BFC8 /* HomeViewController.swift */,
+				9AD9A5FE258CA8D800989628 /* RecommendViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				9AD308F92582225C00F8BFC8 /* AppDelegate.swift in Sources */,
 				9A2E8ED72588985100EB0940 /* PageContentView.swift in Sources */,
 				9A2E8EDC2588B38000EB0940 /* UIColor-Extension.swift in Sources */,
+				9AD9A5FF258CA8D800989628 /* RecommendViewController.swift in Sources */,
 				9AD3097525833B3900F8BFC8 /* HomeViewController.swift in Sources */,
 				9AD3098725833B8700F8BFC8 /* ProfileViewController.swift in Sources */,
 				9AD308FB2582225C00F8BFC8 /* SceneDelegate.swift in Sources */,
