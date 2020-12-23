@@ -7,8 +7,8 @@
 
 import UIKit
 
-
 let kNavigationBarH : CGFloat = 44
+
 //适配不同机型的状态栏
 let kStatusBarH : CGFloat = {if #available(iOS 13.0, *) {
     let statusBarManager = UIApplication.shared.windows.first?.windowScene?.statusBarManager
@@ -16,7 +16,17 @@ let kStatusBarH : CGFloat = {if #available(iOS 13.0, *) {
 }else{
     return  UIApplication.shared.statusBarFrame.size.height
 }}()
+let KBottomSafe: CGFloat =  { if (kStatusBarH == 20){
+    return 0
+}else{
+    return 34
+}}()
 
+let KTabBarH : CGFloat =  { if (kStatusBarH == 20){
+    return 49
+}else{
+    return 83
+}}()
 
 
 let kScreenW = UIScreen.main.bounds.width
