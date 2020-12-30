@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionCycleCell" customModule="DouYuApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="349" height="116"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="349" height="116"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Img_default" translatesAutoresizingMaskIntoConstraints="NO" id="jdY-hc-fS3">
+                        <rect key="frame" x="0.0" y="0.0" width="349" height="116"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXk-ju-PNq">
+                        <rect key="frame" x="0.0" y="86" width="349" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="斗鱼小智" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bv1-U5-QBr">
+                                <rect key="frame" x="15" y="7" width="53.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="placeholderTextColor"/>
+                        <constraints>
+                            <constraint firstItem="bv1-U5-QBr" firstAttribute="leading" secondItem="sXk-ju-PNq" secondAttribute="leading" constant="15" id="CFF-LH-MXw"/>
+                            <constraint firstAttribute="height" constant="30" id="HoQ-3W-mxJ"/>
+                            <constraint firstItem="bv1-U5-QBr" firstAttribute="centerY" secondItem="sXk-ju-PNq" secondAttribute="centerY" id="sqs-nt-bA5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="sXk-ju-PNq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="239-eg-zkB"/>
+                <constraint firstAttribute="bottom" secondItem="sXk-ju-PNq" secondAttribute="bottom" id="26L-xK-ptP"/>
+                <constraint firstAttribute="trailing" secondItem="sXk-ju-PNq" secondAttribute="trailing" id="Io3-c1-FJG"/>
+                <constraint firstItem="jdY-hc-fS3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WY7-KG-4iG"/>
+                <constraint firstAttribute="bottom" secondItem="jdY-hc-fS3" secondAttribute="bottom" id="coG-n7-gjc"/>
+                <constraint firstAttribute="trailing" secondItem="jdY-hc-fS3" secondAttribute="trailing" id="cs0-4h-4m8"/>
+                <constraint firstItem="jdY-hc-fS3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dEL-XJ-5Ht"/>
+            </constraints>
+            <size key="customSize" width="349" height="116"/>
+            <connections>
+                <outlet property="iconIMageView" destination="jdY-hc-fS3" id="UPU-AQ-Vdt"/>
+                <outlet property="titleLabel" destination="bv1-U5-QBr" id="oJY-wt-FJc"/>
+            </connections>
+            <point key="canvasLocation" x="-219.56521739130437" y="55.580357142857139"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Img_default" width="172.5" height="103.5"/>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -9,6 +9,7 @@ target 'DouYuApp' do
     pod 'SnapKit'
     pod 'Moya'
     pod 'ObjectMapper'
+    pod 'Kingfisher'
     use_frameworks!
 end
 

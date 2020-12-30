@@ -4,6 +4,9 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
   - Moya (14.0.0):
     - Moya/Core (= 14.0.0)
   - Moya/Core (14.0.0):
@@ -22,6 +25,7 @@ DEPENDENCIES:
   - Alamofire
   - CocoaAsyncSocket
   - FMDB
+  - Kingfisher
   - Moya
   - ObjectMapper
   - RxCocoa
@@ -34,6 +38,7 @@ SPEC REPOS:
     - Alamofire
     - CocoaAsyncSocket
     - FMDB
+    - Kingfisher
     - Moya
     - ObjectMapper
     - RxCocoa
@@ -46,6 +51,7 @@ SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
   CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
@@ -54,6 +60,6 @@ SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 0adcad4083b4be7a2e8225dd6c0ca556e6ec512e
+PODFILE CHECKSUM: 4f6b6db10e6c1bde525a3747d45d08301f00bff8
 
 COCOAPODS: 1.9.0.beta.2
