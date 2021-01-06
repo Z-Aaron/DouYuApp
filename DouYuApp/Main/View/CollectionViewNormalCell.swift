@@ -13,7 +13,7 @@ class CollectionViewNormalCell: CollectionBaseCell {
     @IBOutlet weak var roomNameLabel: UILabel!
     
     //MARK:- 定义模型属性
-    override var anchor :AnchorsModel?{
+    override var anchor : AnchorsModel?{
         didSet{
             super.anchor = anchor
             //3.房间名称
