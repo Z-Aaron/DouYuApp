@@ -34,7 +34,7 @@ class AnchorsModel: NSObject  {
         setValuesForKeys(dict)
     }
     override func setValue(_ value: Any?, forUndefinedKey key: String) {
-        print("this vlaue UndefinedKey")
+//        print("this vlaue UndefinedKey")
     }
 //    init(json:Any) {
 //        let array = NSArray.yy_modelArray(with: RoomModel.self, json: jsonData) as! [RoomModel]

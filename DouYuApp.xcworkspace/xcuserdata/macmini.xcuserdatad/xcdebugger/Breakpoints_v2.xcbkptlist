@@ -7,16 +7,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "272F7B35-8AB8-4D36-ADAE-BD2189C5F7D9"
+            uuid = "569325C4-D2AB-4C05-B970-F26AAA5532F1"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DouYuApp/Main/Controller/MainViewController.swift"
+            filePath = "DouYuApp/Home/ViewModel/AmuseViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "loadAmiseData(finishedCallback:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "569325C4-D2AB-4C05-B970-F26AAA5532F1 - bacff830120358e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in DouYuApp.AmuseViewModel.loadAmiseData(finishedCallback: () -&gt; ()) -&gt; ()"
+                  moduleName = "DouYuApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/Desktop/%E9%AB%98%E4%BB%BF%E6%96%97%E9%B1%BC/DouYuApp/DouYuApp/Home/ViewModel/AmuseViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1218">
+               </Location>
+               <Location
+                  uuid = "569325C4-D2AB-4C05-B970-F26AAA5532F1 - d5d853aa31836b6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.String) -&gt; () in DouYuApp.AmuseViewModel.loadAmiseData(finishedCallback: () -&gt; ()) -&gt; ()"
+                  moduleName = "DouYuApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macmini/Desktop/%E9%AB%98%E4%BB%BF%E6%96%97%E9%B1%BC/DouYuApp/DouYuApp/Home/ViewModel/AmuseViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50B75BD8-FA93-4560-BEE3-0A4D692DE490"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DouYuApp/Home/ViewModel/AmuseViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "26"
             endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
+            landmarkName = "loadAmiseData(finishedCallback:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

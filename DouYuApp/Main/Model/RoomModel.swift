@@ -51,7 +51,7 @@ class RoomModel: NSObject ,YYModel {
 //        let array = NSArray.yy_modelArray(with: RoomModel.self, json: jsonData) as! [RoomModel]
 //    }
     override  func setValue(_ value: Any?, forUndefinedKey key: String) {
-        print("this vlaue UndefinedKey")
+//        print("this vlaue UndefinedKey")
     }
     static func modelContainerPropertyGenericClass() -> [String : Any]? {
         print(["data":AnchorGroup.classForCoder()])

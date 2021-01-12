@@ -12,16 +12,16 @@ class RecommendGameView: UIView {
     @IBOutlet weak var collectionView: UICollectionView!
     
     //MARK:- 定义属性数据
-    var groups : [AnchorGroup]?{
+    var groups : [BaseGameModel]?{
         didSet{
-            //1.移除前两组数据
-            groups?.removeFirst()
-            groups?.removeFirst()
-            
-            //2.添加更多组
-            let moreGroup = AnchorGroup()
-            moreGroup.tag_name = "更多"
-            groups?.append(moreGroup)
+//            //1.移除前两组数据
+//            groups?.removeFirst()
+//            groups?.removeFirst()
+//            
+//            //2.添加更多组
+//            let moreGroup = AnchorGroup()
+//            moreGroup.tag_name = "更多"
+//            groups?.append(moreGroup)
             
             collectionView.reloadData()
         }
@@ -56,7 +56,7 @@ extension RecommendGameView : UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kgameCellID, for: indexPath) as! CollectionGameCell
         
-        cell.group = groups![indexPath.item]
+        cell.bashGame = groups![indexPath.item]
         
         
         return cell

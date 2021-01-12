@@ -8,9 +8,8 @@
 import UIKit
 
 //@objcMembers
-class AnchorGroup: NSObject  {
-    //游戏图标
-    @objc var icon_url : String = ""
+class AnchorGroup: BaseGameModel  {
+ 
     @objc var small_icon_url : String = ""
     @objc var  tag_id : String = ""
     @objc var push_vertical_screen : String = ""
@@ -28,23 +27,11 @@ class AnchorGroup: NSObject  {
             }
         }
     }
-    //组显示的标题
-    @objc var tag_name : String = ""
+
     //组显示图标
     @objc var icon_name :String = "home_header_normal"
 
     @objc lazy var anchors : [AnchorsModel] = [AnchorsModel]()
     
-    init(dict :  [String : NSObject]) {
-        super.init()
-        setValuesForKeys(dict)
-    }
-    override init() {
-        
-    }
-    override  func setValue(_ value: Any?, forUndefinedKey key: String) {
-        print("this vlaue UndefinedKey")
-    }
-
 
 }

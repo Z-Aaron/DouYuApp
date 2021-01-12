@@ -30,6 +30,6 @@ class CycleModel : NSObject {
         setValuesForKeys(dict)
     }
     override  func setValue(_ value: Any?, forUndefinedKey key: String) {
-        print("this vlaue UndefinedKey")
+//        print("this vlaue UndefinedKey")
     }
 }
