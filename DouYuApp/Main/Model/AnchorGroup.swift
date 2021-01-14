@@ -11,7 +11,7 @@ import UIKit
 class AnchorGroup: BaseGameModel  {
  
     @objc var small_icon_url : String = ""
-    @objc var  tag_id : String = ""
+//    @objc var  tag_id : String = ""
     @objc var push_vertical_screen : String = ""
     @objc var push_nearby : String = ""
     
