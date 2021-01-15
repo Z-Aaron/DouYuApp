@@ -10,7 +10,6 @@ private let kTitleViewH : CGFloat  = 40
 class HomeViewController: UIViewController{
 //    MARK:- 懒加载属性
     private lazy var pageTitleView: PageTitleView = { [weak self ] in
-        print(kStatusBarH)
         let titleFrame = CGRect(x: 0, y: kStatusBarH + kNavigationBarH, width: kScreenW, height: kTitleViewH)
         let titles = ["推荐","游戏","娱乐","趣玩"]
         let titleView = PageTitleView(frame: titleFrame, titles: titles)
@@ -64,6 +63,7 @@ extension HomeViewController{
 //        pageContentView.backgroundColor = UIColor.purple
     }
     private func setupNavgationBar(){
+        
         //2.设置左侧item
         navigationItem.leftBarButtonItem = UIBarButtonItem(imageName: "logo")
         

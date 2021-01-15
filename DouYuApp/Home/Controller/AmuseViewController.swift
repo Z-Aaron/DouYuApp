@@ -41,6 +41,8 @@ extension AmuseViewController{
             var tmpGroups = self.amuseVM.anchorGroups
             tmpGroups.removeFirst()
             self.menuView.groups = tmpGroups
+            //3.数据请求完成
+            self.loadDataFinshed()
         }
     }
 }

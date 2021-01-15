@@ -17,7 +17,7 @@ let kNormalItemW = (kScreenW - 3 * kItemMargin)/2
 let kNormalItemH = kNormalItemW * 3  / 4
 let kPreetyItemH = kNormalItemW * 4  / 3
 
-class BaseAnchorViewController: UIViewController {
+class BaseAnchorViewController: BaseViewController {
 
     //MARK: 定义属性
     var baseVM : BaseViewModel!
@@ -57,12 +57,17 @@ class BaseAnchorViewController: UIViewController {
 
 //MARK:- 设置UI内容
 extension BaseAnchorViewController{
-    @objc func setupUI(){
+    override func setupUI(){
+
+        //给父类中内容view引用进行赋值
+        contentView = collectionView
+        
         //1.将UICollecttionView添加到控制器View中
         view.addSubview(collectionView)
+        
+        super.setupUI()
+        
   
-//        //3.设置collectionView的内边距
-//        collectionView.contentInset = UIEdgeInsets(top: kCycleViewH + kGameViewH, left: 0, bottom: 0, right: 0)
     }
 }
 
@@ -74,18 +79,17 @@ extension BaseAnchorViewController{
 }
 
 //MARK:- 遵守UICollection的DataSource
-extension BaseAnchorViewController : UICollectionViewDataSource,UICollectionViewDelegate{
+extension BaseAnchorViewController : UICollectionViewDataSource{
 
         
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
             
-            if baseVM == nil{return 20}
+            
             return baseVM.anchorGroups[section].anchors.count
             
         }
         
         func numberOfSections(in collectionView: UICollectionView) -> Int {
-            if baseVM == nil{return 1}
             return baseVM.anchorGroups.count
         }
         
@@ -93,7 +97,7 @@ extension BaseAnchorViewController : UICollectionViewDataSource,UICollectionView
 
             //1.定义cell
             let  cell = collectionView.dequeueReusableCell(withReuseIdentifier: kNormelCellID, for: indexPath) as! CollectionViewNormalCell
-            if baseVM == nil{return cell}
+            
             cell.anchor = baseVM.anchorGroups[indexPath.section].anchors[indexPath.item]
             
             
@@ -104,8 +108,6 @@ extension BaseAnchorViewController : UICollectionViewDataSource,UICollectionView
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: kHeaderViewID, for: indexPath) as! CollCollectionHeaderView
         
-        if baseVM == nil{return headerView}
-        
         headerView.group = baseVM.anchorGroups[indexPath.section]
         
         return headerView
@@ -114,3 +116,27 @@ extension BaseAnchorViewController : UICollectionViewDataSource,UICollectionView
         
       
     }
+
+//MARK:- 遵守UICollectionViewDelegate
+extension BaseAnchorViewController : UICollectionViewDelegate{
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        //1.取出主播信息
+        let anchor = baseVM.anchorGroups[indexPath.section].anchors[indexPath.item]
+        //判断是秀场房间还是普通房间
+        anchor.isVertical == 0 ? pushNormalRoomVC() : presentShowRoomVC()
+    }
+    
+    private func presentShowRoomVC(){
+        let showRoomVC = RoomShowViewController()
+        
+        //model方式弹出
+        present(showRoomVC, animated: true, completion: nil)
+    }
+    private func pushNormalRoomVC(){
+        
+        let normalRoomVC = RoomNormalViewController()
+        
+        //push方式弹出
+        navigationController?.pushViewController(normalRoomVC, animated: true)
+    }
+}

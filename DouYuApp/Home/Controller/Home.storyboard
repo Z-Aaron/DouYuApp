@@ -27,12 +27,13 @@
         <!--Storyboard-->
         <scene sceneID="kCA-BT-hNf">
             <objects>
-                <navigationController title="Storyboard" automaticallyAdjustsScrollViewInsets="NO" id="1ty-ZM-e68" sceneMemberID="viewController">
+                <navigationController title="Storyboard" automaticallyAdjustsScrollViewInsets="NO" id="1ty-ZM-e68" customClass="CustomNavigationController" customModule="DouYuApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="主页" image="btn_home_normal" landscapeImage="btn_home_normal" selectedImage="btn_home_selected" id="YAx-lb-LCP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="s1n-Qk-ZXq">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
